@@ -1,3 +1,147 @@
 *{
     margin: 0;
 }
+.url-wrap {
+  background: #f7f7f5;
+  font-family: sans-serif;
+}
+
+.url-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 40px;
+  background: #fff;
+  border-bottom: 1px solid #eee;
+  gap: 20px;
+}
+
+.url-nav-left {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.url-logo {
+  height: 36px;
+}
+
+.url-nav-desc {
+  font-size: 11px;
+  color: #aaa;
+  line-height: 1.4;
+  border-left: 1px solid #eee;
+  padding-left: 14px;
+}
+
+.url-nav-links {
+  display: flex;
+  gap: 30px;
+}
+
+.url-nav-link {
+  font-size: 14px;
+  color: #555;
+  text-decoration: none;
+}
+
+.url-nav-active {
+  color: #2eb87e;
+  font-weight: 600;
+}
+
+.url-nav-btn {
+  padding: 10px 20px;
+  background: #2eb87e;
+  color: #fff;
+  border: none;
+  border-radius: 24px;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.url-hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 60px;
+  gap: 40px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.url-hero-left {
+  max-width: 460px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.url-hero-title {
+  font-size: 48px;
+  font-weight: 800;
+  color: #1a1a1a;
+  line-height: 1.15;
+}
+
+.url-green {
+  color: #2eb87e;
+}
+
+.url-hero-sub {
+  font-size: 15px;
+  color: #555;
+  line-height: 1.7;
+}
+
+.url-hero-actions {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.url-hero-btn {
+  padding: 14px 28px;
+  background: #f97316;
+  color: #fff;
+  border: none;
+  border-radius: 24px;
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.url-hero-hint {
+  font-size: 12px;
+  color: #aaa;
+  line-height: 1.5;
+}
+
+.url-hero-right {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.url-hero-img {
+  width: 100%;
+  max-width: 520px;
+}
+
+.url-logos {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 20px 60px 30px;
+  flex-wrap: wrap;
+  gap: 16px;
+  border-top: 1px solid #eee;
+  background: #fff;
+}
+
+.url-brand {
+  height: 22px;
+  filter: grayscale(1);
+  opacity: 0.5;
+}
