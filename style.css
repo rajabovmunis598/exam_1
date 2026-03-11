@@ -110,6 +110,8 @@
   font-size: 14px;
   font-weight: 700;
   cursor: pointer;
+  width: 250px;
+  height: 60px;
 }
 
 .url-hero-hint {
@@ -141,7 +143,7 @@
 }
 
 .url-brand {
-  height: 22px;
+  height: 60px;
   filter: grayscale(1);
   opacity: 0.5;
 }
