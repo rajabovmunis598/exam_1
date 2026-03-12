@@ -296,3 +296,12 @@
   color: #2eb87e;
   font-weight: 600;
 }
+.who-next:hover{
+  color: white;
+  background-color: blue;
+}
+.who-prev:hover{ 
+  color: white;
+  background-color: blue;
+
+}
