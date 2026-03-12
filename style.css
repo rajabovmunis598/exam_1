@@ -930,6 +930,18 @@
 .tst-card{
   background-color: #FFF6EF;
 }
+.url-nav-btn:hover{
+    background-color: #FFBB8A;
+    color: white;
+}
+.url-hero-btn:hover{
+    background-color: #5EB083;
+    color: white;
+}
+.urf-top:hover{
+  background-color: white;
+  color: black;
+}
 
 @media (max-width: 500px) {
 
